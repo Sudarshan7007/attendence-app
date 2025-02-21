@@ -30,13 +30,7 @@ header {
  img {
     width: 100%;
 }
-.id_no {
-    /* background-color: aqua; */
-    /* display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center; */
-}
+
 
 input {
     padding: 20px;
@@ -59,3 +53,63 @@ input::placeholder {
 .instructions ul li {
     font-size: 24px;
 }
+
+/* ----------------------------------next page---------------------- */
+.btn-function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-in {
+    padding: 17px 45px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    background-color: rgb(72, 218, 43);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(71, 201, 11) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+ .btn-in:hover {
+    box-shadow: rgb(10, 163, 23) 0px 7px 0px 0px;
+  }
+  
+  .btn-in:active {
+    background-color: rgb(78, 161, 62);
+    /*50, 168, 80*/
+    box-shadow: rgb(84, 224, 131) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  
+.btn-out {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px;
+    background-color: rgb(226, 51, 28);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(204, 7, 7) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+ .btn-out:hover {
+    box-shadow: rgb(228, 80, 80) 0px 7px 0px 0px;
+  }
+  
+  .btn-out:active {
+    background-color: rgb(219, 46, 55);
+    /*50, 168, 80*/
+    box-shadow: rgb(219, 52, 52) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  
+
